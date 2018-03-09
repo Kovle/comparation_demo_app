@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-100.times do |x|
+900.times do |x|
     o = [('a'..'z'), ('A'..'Z')].map(&:to_a).flatten
     string = (0...50).map { o[rand(o.length)] }.join
     randn = Random.rand(11)
